@@ -1,0 +1,482 @@
+<!--
+/*********************************************************************************
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ * 
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ * 
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * 
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ * 
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo. If the display of the logo is not reasonably feasible for
+ * technical reasons, the Appropriate Legal Notices must display the words
+ * "Powered by SugarCRM".
+ ********************************************************************************/
+
+/*********************************************************************************
+ * Description:  Defines the English language pack for the base application.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): Vanio Vieira (vvanio@yahoo.com.br).
+ ********************************************************************************/
+-->
+
+<!-- BEGIN: Quote_Subject -->
+[Net.CRM] Cotação - {QUOTE_SUBJECT}
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu uma Cotação para você.
+----------------------------------------------
+
+Assunto: {QUOTE_SUBJECT}
+Status: {QUOTE_STATUS}
+Data Prevista: {QUOTE_CLOSEDATE}
+Descrição: {QUOTE_DESCRIPTION}
+
+Você pode rever esta Cotação clicando aqui:
+{URL}
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Quote -->
+
+
+<!-- BEGIN: Account_Subject -->
+[Net.CRM] Conta - {ACCOUNT_NAME}
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu uma Conta para você.
+----------------------------------------------
+
+Nome: {ACCOUNT_NAME}
+Tipo: {ACCOUNT_TYPE}
+Descrição: {ACCOUNT_DESCRIPTION}
+
+Você pode rever esta Conta clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Account -->
+
+
+<!-- BEGIN: Case_Subject -->
+[Net.CRM] Ocorrência - {CASE_SUBJECT}
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu uma Ocorrência para você.
+----------------------------------------------
+
+Assunto: {CASE_SUBJECT}
+Prioridade: {CASE_PRIORITY}
+Status: {CASE_STATUS}
+Descrição: {CASE_DESCRIPTION}
+
+Você pode rever esta Ocorrência clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Case -->
+
+
+<!-- BEGIN: Task_Subject -->
+[Net.CRM] Tarefa - {TASK_SUBJECT}
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu uma Tarefa para você.
+----------------------------------------------
+
+Assunto: {TASK_SUBJECT}
+Prioridade: {TASK_PRIORITY}
+Data: {TASK_DUEDATE}
+Status: {TASK_STATUS}
+Descrição: {TASK_DESCRIPTION}
+
+Você pode rever esta Tarefa clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Task -->
+
+
+<!-- BEGIN: Meeting_Subject -->
+[Net.CRM] Reunião - {MEETING_SUBJECT}
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+Para: {MEETING_TO},
+
+{ASSIGNER} convidou você para uma Reunião.
+----------------------------------------------
+
+Assunto: {MEETING_SUBJECT}
+Status: {MEETING_STATUS}
+Data de Início: {MEETING_STARTDATE}
+Duração: {MEETING_HOURS}h, {MEETING_MINUTES}m
+Descrição: {MEETING_DESCRIPTION}
+
+Aceitar esta Reunião:
+<{ACCEPT_URL}&accept_status=accept>
+
+Aceitar provisoriamente esta Reunião:
+<{ACCEPT_URL}&accept_status=tentative>
+
+Rejeitar esta Reunião
+<{ACCEPT_URL}&accept_status=decline>
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+[Net.CRM] Reunião - {MEETING_SUBJECT}
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+{ASSIGNER} atribuiu você para uma Reunião.
+----------------------------------------------
+
+Assunto: {MEETING_SUBJECT}
+Status: {MEETING_STATUS}
+Data de Início: {MEETING_STARTDATE}
+Duração: {MEETING_HOURS}h, {MEETING_MINUTES}m
+Descrição: {MEETING_DESCRIPTION}
+
+Você pode rever esta Reunião em:
+<{URL}>
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: MeetingSpecial -->
+
+<!-- BEGIN: Email_Subject -->
+[Net.CRM] E-mail - {EMAIL_SUBJECT}
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um E-mail para você.
+----------------------------------------------
+
+Assunto: {EMAIL_SUBJECT}
+Data de Envio: {EMAIL_DATESENT}
+
+Você pode rever este E-mail clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Email -->
+
+
+<!-- BEGIN: Contact_Subject -->
+[Net.CRM] Contato - {CONTACT_NAME}
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um Contato para você.
+----------------------------------------------
+
+Nome: {CONTACT_NAME}
+Descrição: {CONTACT_DESCRIPTION}
+
+você pode rever este Contato clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Contact -->
+
+
+<!-- BEGIN: Lead_Subject -->
+[Net.CRM] Lead - {LEAD_NAME}
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um Lead para você.
+----------------------------------------------
+
+Nome: {LEAD_NAME}
+Fonte de Origem: {LEAD_SOURCE}
+Status: {LEAD_STATUS}
+Descrição: {LEAD_DESCRIPTION}
+
+Você pode rever este Lead clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Lead -->
+
+
+<!-- BEGIN: Opportunity_Subject -->
+[Net.CRM] Oportunidade - {OPPORTUNITY_NAME}
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu uma Oportunidade para você.
+----------------------------------------------
+
+Nome: {OPPORTUNITY_NAME}
+Valor: {OPPORTUNITY_AMOUNT}
+Data Prevista: {OPPORTUNITY_CLOSEDATE}
+Estágio de Vendas: {OPPORTUNITY_STAGE}
+Descrição: {OPPORTUNITY_DESCRIPTION}
+
+Você pode rever esta Oportunidade clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Opportunity -->
+
+
+<!-- BEGIN: Bug_Subject -->
+[Net.CRM] Bug - {BUG_SUBJECT}
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um Bug para você.
+----------------------------------------------
+
+Número do Bug: {BUG_BUG_NUMBER}
+Assunto: {BUG_SUBJECT}
+Tipo: {BUG_TYPE}
+Prioridade: {BUG_PRIORITY}
+Status: {BUG_STATUS}
+Resolução: {BUG_RESOLUTION}
+Release: {BUG_RELEASE}
+Descrição: {BUG_DESCRIPTION}
+Work Log: {BUG_WORK_LOG}
+
+Você pode rever este Bug clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Bug -->
+
+
+<!-- BEGIN: Default_Subject -->
+[Net.CRM] - {OBJECT}
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um(a) {OBJECT} para você.
+----------------------------------------------
+
+Nome: {OBJECT_NAME}
+Descrição: {OBJECT_DESCRIPTION}
+
+Você pode rever este(a) {OBJECT} clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+[Net.CRM] Chamada - {CALL_SUBJECT}
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+Para: {CALL_TO},
+
+{ASSIGNER} convidou você para uma Chamada.
+----------------------------------------------
+
+Assunto: {CALL_SUBJECT}
+Status: {CALL_STATUS}
+Data de Início: {CALL_STARTDATE}
+Duração: {CALL_HOURS}h, {CALL_MINUTES}m
+Descrição: {CALL_DESCRIPTION}
+
+Aceitar esta Chamada:
+<{ACCEPT_URL}&accept_status=accept>
+
+Aceitar provisoriamente esta Chamada:
+<{ACCEPT_URL}&accept_status=tentative>
+
+Rejeitar esta Chamada:
+<{ACCEPT_URL}&accept_status=decline>
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+[Net.CRM] Chamada - {CALL_SUBJECT}
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+Olá {ASSIGNED_USER},
+ {ASSIGNER} atribuiu uma Chamada para você.
+----------------------------------------------
+
+Assunto: {CALL_SUBJECT}
+Status: {CALL_STATUS}
+Data: {CALL_STARTDATE}
+Duração: {CALL_HOURS}h, {CALL_MINUTES}m
+Descrição: 
+{CALL_DESCRIPTION}
+
+Você pode rever esta Chamada clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: Campaign_Subject -->
+[Net.CRM] Campanha - {CAMPAIGN_NAME}
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+Olá {ASSIGNED_USER},
+ {ASSIGNER} atribuiu uma Campanha para você.
+----------------------------------------------
+
+Assunto: {CAMPAIGN_NAME}
+Valor: {CAMPAIGN_AMOUNT}
+Data de Término: {CAMPAIGN_CLOSEDATE}
+Status: {CAMPAIGN_STATUS}
+Descrição: {CAMPAIGN_DESCRIPTION}
+
+Você pode rever esta Campanha clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+[Net.CRM] Cotação - Sua Cotação para {QUOTA_TIMEPERIOD}
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+Olá {ASSIGNED_USER},
+ {ASSIGNER} atribuiu uma Cotação para você.
+----------------------------------------------
+
+Valor: {QUOTA_AMOUNT}
+Periodo de Tempo: {QUOTA_TIMEPERIOD}
+
+Você pode rever esta Cotação clicando aqui:
+<{QUOTA_URL}>
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+[Net.CRM] Documento - {KBDOCUMENT_NAME}
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+
+{NOTIFICATION_MESSAGE}
+
+Olá {ASSIGNED_USER},
+{ASSIGNER} atribuiu um Documento para você.
+----------------------------------------------
+
+Nome: {KBDOCUMENT_NAME}
+Data de Criação: {KBDOCUMENT_DATE_CREATED}
+Criado por: {KBDOCUMENT_CREATED_BY}
+Status: {KBDOCUMENT_STATUS}
+Descrição: {KBDOCUMENT_DESCRIPTION}
+
+Você pode rever este Documento clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+[Net.CRM] Contrato - {CONTRACT_NAME}
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+
+Olá {ASSIGNED_USER},
+ {ASSIGNER} atribuiu um Contrato para você.
+
+Você pode rever este Contrato clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+[Net.CRM] Contrato - {CONTRACT_NAME}
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+Olá {ASSIGNED_USER},
+
+----------------------------------------------
+
+Seu Contrato: {CONTRACT_NAME} vencerá em {CONTRACT_END_DATE}.
+
+Você pode rever este Contrato clicando aqui:
+{URL}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END:ContractSpecial-->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+Lembrete de Reunião - {MEETING_SUBJECT}
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+Olá,
+
+Lembrete da Reunião que você tem que participar.
+----------------------------------------------
+
+Assunto: {MEETING_SUBJECT}
+Status: {MEETING_STATUS}
+Data de Início: {MEETING_STARTDATE}
+Duração: {MEETING_HOURS}h, {MEETING_MINUTES}m
+Descrição: {MEETING_DESCRIPTION}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: CallReminder_Subject -->
+Lembrete de Chamada - {CALL_SUBJECT}
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+Olá,
+
+Lembrete da Chamada que você tem que participar.
+----------------------------------------------
+
+Assunto: {CALL_SUBJECT}
+Status: {CALL_STATUS}
+Data de Início: {CALL_STARTDATE}
+Duração: {CALL_HOURS}h, {CALL_MINUTES}m
+Descrição: {CALL_DESCRIPTION}
+
+----------------------------------------------
+PS.: Mensagem automática, favor não responder!
+<!-- END: CallReminder -->
