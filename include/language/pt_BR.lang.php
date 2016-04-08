@@ -3,31 +3,31 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
- * 
+ *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
  * Free Software Foundation with the addition of the following permission added
  * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
  * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
  * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
  * details.
- * 
+ *
  * You should have received a copy of the GNU Affero General Public License along with
  * this program; if not, see http://www.gnu.org/licenses or write to the Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
- * 
+ *
  * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
  * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
- * 
+ *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under
  * Section 5 of the GNU Affero General Public License version 3.
- * 
+ *
  * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
  * these Appropriate Legal Notices must retain the display of the "Powered by
  * SugarCRM" logo. If the display of the logo is not reasonably feasible for
@@ -148,7 +148,7 @@ $app_list_strings = array (
   ),
 
   //e.g. en français 'Analyst'=>'Analyste',
-  'account_type_dom' => 
+  'account_type_dom' =>
   array (
     '' => '',
     'Analyst' => 'Analista',
@@ -216,7 +216,7 @@ $app_list_strings = array (
     'Campaign' => 'Campanha',
     'Other' => 'Outro',
   ),
-  'opportunity_type_dom' => 
+  'opportunity_type_dom' =>
   array (
     '' => '',
     'Existing Business' => 'Negócios Existentes',
@@ -254,7 +254,7 @@ $app_list_strings = array (
     'Primary Contact' => 'Contato Principal',
     'Alternate Contact' => 'Contato Alternativo',
   ),
-  'payment_terms' => 
+  'payment_terms' =>
   array (
     '' => '',
     'Net 15' => '15 DDL',
@@ -355,11 +355,11 @@ $app_list_strings = array (
     'Held' => 'Realizada',
     'Not Held' => 'Não Realizada',
   ),
-  'extapi_meeting_password' => 
+  'extapi_meeting_password' =>
   array (
     'WebEx' => 'WebEx',
   ),
-  'meeting_type_dom' => 
+  'meeting_type_dom' =>
   array (
     'Other' => 'Outro',
     'SugarCRM' => 'SugarCRM',
@@ -377,7 +377,7 @@ $app_list_strings = array (
     'Inbound' => 'Entrada',
     'Outbound' => 'Saída',
   ),
-  'lead_status_dom' => 
+  'lead_status_dom' =>
   array (
     '' => '',
     'New' => 'Novo',
@@ -442,7 +442,7 @@ $app_list_strings = array (
     'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array (
-        'Not Started' => 'Não Inciada',
+        'Not Started' => 'Não Iniciada',
         'In Progress' => 'Em Progresso',
         'Completed' => 'Concluída',
         'Pending Input' => 'Informação Pendente',
@@ -477,7 +477,7 @@ $app_list_strings = array (
   //Note:  do not translate record_type_default_key
 //       it is the key for the default record_type_module value
   'record_type_default_key' => 'Accounts',
-  'record_type_display' => 
+  'record_type_display' =>
   array (
     '' => '',
     'Accounts' => 'Conta',
@@ -498,7 +498,7 @@ $app_list_strings = array (
 
   ),
 
-  'record_type_display_notes' => 
+  'record_type_display_notes' =>
   array (
     'Accounts' => 'Conta',
     'Contacts' => 'Contato',
@@ -517,7 +517,7 @@ $app_list_strings = array (
     'Calls' => 'Ligação',
   ),
 
-  'parent_type_display' => 
+  'parent_type_display' =>
   array (
     'Accounts' => 'Conta',
     'Contacts' => 'Contato',
@@ -546,7 +546,7 @@ $app_list_strings = array (
     'Low' => 'Baixa',
   ),
   'issue_resolution_default_key' => '',
-  'issue_resolution_dom' => 
+  'issue_resolution_dom' =>
   array (
     '' => '',
     'Accepted' => 'Aceito',
@@ -575,7 +575,7 @@ $app_list_strings = array (
     'Low' => 'Baixa',
   ),
    'bug_resolution_default_key' => '',
-  'bug_resolution_dom' => 
+  'bug_resolution_dom' =>
   array (
     '' => '',
     'Accepted' => 'Aceito',
@@ -661,7 +661,7 @@ $app_list_strings = array (
     'In Queue' => 'Na Fila',
     'Sending' => 'Enviando',
   ),
-  'campaign_type_dom' => 
+  'campaign_type_dom' =>
   array (
     '' => '',
     'Telesales' => 'Tele-vendas',
@@ -674,7 +674,7 @@ $app_list_strings = array (
     'NewsLetter' => 'Newsletter',
   ),
 
-  'newsletter_frequency_dom' => 
+  'newsletter_frequency_dom' =>
   array (
     '' => '',
     'Weekly' => 'Semanal',
@@ -683,7 +683,7 @@ $app_list_strings = array (
     'Annually' => 'Anual',
   ),
 
-  'notifymail_sendtype' => 
+  'notifymail_sendtype' =>
   array (
     'SMTP' => 'SMTP',
   ),
@@ -841,7 +841,7 @@ $app_list_strings = array (
     'Direct' => 'Direto',
     'Rollup' => 'Rollup',
   ),
-  'document_category_dom' => 
+  'document_category_dom' =>
   array (
     '' => '',
     'Marketing' => 'Marketing',
@@ -857,7 +857,7 @@ $app_list_strings = array (
     'FAQ' => 'FAQ',
   ),
 
-  'document_status_dom' => 
+  'document_status_dom' =>
   array (
     'Active' => 'Ativo',
     'Draft' => 'Rascunho',
@@ -866,7 +866,7 @@ $app_list_strings = array (
     'Under Review' => 'Em Revisão',
     'Pending' => 'Pendente',
   ),
-  'document_template_type_dom' => 
+  'document_template_type_dom' =>
   array (
     '' => '',
     'mailmerge' => 'Mesclar Caixa de Correio',
@@ -962,7 +962,7 @@ $app_list_strings = array (
     'send error'=>'Mensagens Devolvidas - Outros',
     'invalid email'=>'Mensagens Devolvidas - E-mail Inválido',
     'link'=>'Click-thru Link',
-    'viewed'=>'Menssagem Visualizada',
+    'viewed'=>'Mensagem Visualizada',
     'removed'=>'Optou Sair',
     'lead'=>'Leads Criados',
     'contact'=>'Contatos Criados',
@@ -1239,7 +1239,7 @@ $app_strings = array (
     'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT'        => 'Padrão',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS'  => 'Aviso: Faltam nome de usuário e senha para a conta de transferência de correio.',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER_REQD'      => 'Usuário SMTP é obrigatório',
-    'LBL_EMAIL_ACCOUNTS_SMTPPASS_REQD'      => 'Senha SMTP é obrigatório',
+    'LBL_EMAIL_ACCOUNTS_SMTPPASS_REQD'      => 'Senha SMTP é obrigatória',
     'LBL_EMAIL_ACCOUNTS_TITLE'              => 'Gestão de Conta de Correio',
     'LBL_EMAIL_POP3_REMOVE_MESSAGE'     => 'Protocolo de Serviço de E-mail do tipo POP3 não será suportado nesta release. Somente IMAP será suportado.',
   'LBL_EMAIL_ACCOUNTS_SUBTITLE'           => 'Defina Contas de E-mail para visualizar E-mails de entrada para suas contas de E-mail.',
@@ -2085,7 +2085,7 @@ $app_strings = array (
     'LNK_LOAD_SIGNED_TOOLTIP'=>'Replace por documento assinado',
     'LNK_PRINT' => 'Imprimir',
     'LNK_BACKTOTOP' => 'Voltar ao Topo',
-    'LNK_REMOVE' => 'remover',
+    'LNK_REMOVE' => 'Remover',
     'LNK_RESUME' => 'Resumo',
     'LNK_VIEW_CHANGE_LOG' => 'Visualizar Registro de Alterações',
 
@@ -2120,7 +2120,7 @@ $app_strings = array (
     'WARN_UNSAVED_CHANGES'=> "Você está prestes a abondanar este registro sem salvar alterações que tenha feito. Você está certo que quer abandonar este registro?",
     'ERROR_NO_RECORD' => 'Erro ao recuperar um registro. Este registro pode ter sido excluído ou você pode não ter permissões para visualizá-lo. ',
     'ERROR_TYPE_NOT_VALID' => 'Erro. Este tipo não é válido.',
-    'ERROR_NO_BEAN' => 'Falha ao obter o \'bean\'.', 
+    'ERROR_NO_BEAN' => 'Falha ao obter o \'bean\'.',
     'LBL_DUP_MERGE'=>'Procurar Duplicados',
     'LBL_MANAGE_SUBSCRIPTIONS'=>'Gerenciar Inscrições',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR'=>'Gerenciar Inscrições para ',
@@ -2261,10 +2261,10 @@ $app_strings = array (
     'LBL_MODULE' => 'Módulo',
 
     //adding a label for address copy from left
-    'LBL_COPY_ADDRESS_FROM_LEFT' => 'Copiar endereço da esquerda:', 
+    'LBL_COPY_ADDRESS_FROM_LEFT' => 'Copiar endereço da esquerda:',
     'LBL_SAVE_AND_CONTINUE' => 'Salvar e Continuar',
 
-    'LBL_SEARCH_HELP_TEXT' => '<p><br /><strong>Controles Multi-seleção</strong></p><ul><li>Clique nos valores para Selecionar um atributo.</li><li>Ctrl-clique&nbsp;para&nbsp;selecionar múltiplos. Usuários Mac: CMD-clique.</li><li>Para selecionar todos os valores entre dois atributos,&nbsp; clique no primeiro valor e depois shift-clique no último valor.</li></ul><p><strong>Pesquisa Avançada e Opções de Layout</strong><br><br>Usando a opção <b>Pesquisa Avançada & Layout</b>, voce pode definir um conjunto de parâmetros de pesquisa e/ou uma Tela de Listagem personalizada para obter no futuro os resultados de pesquisa desejados. Voce pode gravar um número ilimitado de pesquisas personalizadas e layouts. Todas as pesquisas salvas aparecem por nome na lista Pesquisas Salvas, com a última pesquisa salva no topo da lista.<br><br>Para custmizar o layout da Tela de Listagem, use as caixas \'Ocultar Colunas\' e \'Mostrar Colunas\' para selecionar que campos deseja mostrar como resultado da pesquisa. Por exemplo, voce pode visualizar ou ocultar detalhes como nome, usuário atribuído ou equipe atribuída nos resultados de pesquisa. Para adicionar uma coluna na Tela de Listagem, selecione o campo na lista \'Ocultar Colunas\' e use a seta esquerda para movê-lo para a lista \'Mostrar Colunas\'. Para remover uma coluna na Tela de Listagem, selecione o campo na lista \'Mostrar Colunas\' e use a seta direita para movê-lo para a lista \'Ocultar Colunas\'.<br><br>Se você salvar as definições de layout, você poderá carregá-lo a qualquer momento para visualizar os resultados de pesquisa em um layout personalizado.<br><br>Para salvar e atualizar uma pesquisa e/ou layout:<ol><li>Informe um nome para os resultados de pesquisa no campo <b>Salvar esta pesquisa como</b> e clique <b>Salvar</b>. O nome agora mostra na lisa de Pesquisas Salvas próxima ao botão <b>Limpar</b>.</li><li>Para visualizar uma pesquisa salva, selecione-a a partir da lista de Pesquisas Salvast. Os resultados da pesquisa serão mostrados na Tela de Listagem.</li><li>Para atualizar as propriedades de uma pesquisa salva, selecione-a a partir da lista de pesquisas salvas, informe os novos critérios de pesquisa e/ou opções de layout na área Pesquisa Avançada, e clique <b>Update</b> próximo a <b>Modificar Pesquisa Atual</b>.</li><li>Para excluir uma pesquisa salva, selecione-a na lista de Pesquisas Salvas, clique <b>Delete</b> próximo a <b>Modificar Pesquisa Atual</b>, e então clique <b>OK</b> para confirma a exclusão.</li></ol><p><strong>Dicas</strong><br><br>Utilizando um <b>%</b> como um operador coringa você pode fazer uma pesquisa mais ampla. Por exemplo, ao invés de apenas pesquisar resultados que sejam iguais a "Maçãs" você pode modificar sua pesquisa para "Maçãs%", o que vai trazer não só resultados que comecem com a palavra Maçãs mas que também contenham outros caracteres também.</p>' ,
+    'LBL_SEARCH_HELP_TEXT' => '<p><br /><strong>Controles Multi-seleção</strong></p><ul><li>Clique nos valores para Selecionar um atributo.</li><li>Ctrl-clique&nbsp;para&nbsp;selecionar múltiplos. Usuários Mac: CMD-clique.</li><li>Para selecionar todos os valores entre dois atributos,&nbsp; clique no primeiro valor e depois shift-clique no último valor.</li></ul><p><strong>Pesquisa Avançada e Opções de Layout</strong><br><br>Usando a opção <b>Pesquisa Avançada & Layout</b>, voce pode definir um conjunto de parâmetros de pesquisa e/ou uma Tela de Listagem personalizada para obter no futuro os resultados de pesquisa desejados. Voce pode gravar um número ilimitado de pesquisas personalizadas e layouts. Todas as pesquisas salvas aparecem por nome na lista Pesquisas Salvas, com a última pesquisa salva no topo da lista.<br><br>Para customizar o layout da Tela de Listagem, use as caixas \'Ocultar Colunas\' e \'Mostrar Colunas\' para selecionar que campos deseja mostrar como resultado da pesquisa. Por exemplo, voce pode visualizar ou ocultar detalhes como nome, usuário atribuído ou equipe atribuída nos resultados de pesquisa. Para adicionar uma coluna na Tela de Listagem, selecione o campo na lista \'Ocultar Colunas\' e use a seta esquerda para movê-lo para a lista \'Mostrar Colunas\'. Para remover uma coluna na Tela de Listagem, selecione o campo na lista \'Mostrar Colunas\' e use a seta direita para movê-lo para a lista \'Ocultar Colunas\'.<br><br>Se você salvar as definições de layout, você poderá carregá-lo a qualquer momento para visualizar os resultados de pesquisa em um layout personalizado.<br><br>Para salvar e atualizar uma pesquisa e/ou layout:<ol><li>Informe um nome para os resultados de pesquisa no campo <b>Salvar esta pesquisa como</b> e clique <b>Salvar</b>. O nome agora mostra na lisa de Pesquisas Salvas próxima ao botão <b>Limpar</b>.</li><li>Para visualizar uma pesquisa salva, selecione-a a partir da lista de Pesquisas Salvast. Os resultados da pesquisa serão mostrados na Tela de Listagem.</li><li>Para atualizar as propriedades de uma pesquisa salva, selecione-a a partir da lista de pesquisas salvas, informe os novos critérios de pesquisa e/ou opções de layout na área Pesquisa Avançada, e clique <b>Update</b> próximo a <b>Modificar Pesquisa Atual</b>.</li><li>Para excluir uma pesquisa salva, selecione-a na lista de Pesquisas Salvas, clique <b>Delete</b> próximo a <b>Modificar Pesquisa Atual</b>, e então clique <b>OK</b> para confirma a exclusão.</li></ol><p><strong>Dicas</strong><br><br>Utilizando um <b>%</b> como um operador coringa você pode fazer uma pesquisa mais ampla. Por exemplo, ao invés de apenas pesquisar resultados que sejam iguais a "Maçãs" você pode modificar sua pesquisa para "Maçãs%", o que vai trazer não só resultados que comecem com a palavra Maçãs mas que também contenham outros caracteres também.</p>' ,
 
     //resource management
     'ERR_QUERY_LIMIT' => 'Erro: Limite de $limit query atingido para o módulo $module.',
@@ -2306,7 +2306,7 @@ $app_strings = array (
     'LBL_NO_RECORDS_FOUND' => '- 0 Registro(s) Encontrado(s) -',
 
     'DATA_TYPE_DUE' => 'Vencimento:',
-    'DATA_TYPE_START' => 'Inciar:',
+    'DATA_TYPE_START' => 'Iniciar:',
     'DATA_TYPE_SENT' => 'Enviar:',
     'DATA_TYPE_MODIFIED' => 'Modificado:',
 
@@ -2432,7 +2432,7 @@ $app_strings = array (
 "A linha de cabeçalho é a linha mais alto no arquivo e contém os rótulos de campo como seria vê-los na aplicação."
 "Esses rótulos são usados ​​para mapear os dados do arquivo para os campos da aplicação."
 
-"Nota: O banco de nomes pode ser usado no cabeçalho agora. Isto é This is útil quando você está usando o phpMyAdmin ou outra ferramenta de banco de dados para prover uma lista dos dados para importar."
+"Nota: O banco de nomes pode ser usado no cabeçalho agora. Isto é útil quando você está usando o phpMyAdmin ou outra ferramenta de banco de dados para prover uma lista dos dados para importar."
 "A ordem das colunas não é crítica, o processo de importação coincide os dados para os campos apropriados com base na linha de cabeçalho."
 
 
@@ -2555,7 +2555,7 @@ $app_list_strings['kbdocument_status_dom'] = array (
     );
 
   $app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
-  $app_strings['LBL_CREATE_KB_DOCUMENT'] = 'Create Article';
+  $app_strings['LBL_CREATE_KB_DOCUMENT'] = 'Criar Artigo';
   $app_list_strings['kbdocument_viewing_frequency_dom'] =
   array (
     '' => '',
