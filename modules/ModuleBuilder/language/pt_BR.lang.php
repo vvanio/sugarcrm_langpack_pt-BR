@@ -725,7 +725,7 @@ $mod_strings = array(
 'LBL_CONFIRM_SAVE_DROPDOWN' =>"Você está selecionando este item para revover da lista do Dropdown. Quaisquer campos Dropdown usando esta lista com este item como valor não irá mostrá-lo mais, e o valor não estará mais disponível para ser selecionado a partir do Dropdown dos campos. Você está certo que quer continuar?",
 'LBL_POPHELP_VALIDATE_US_PHONE'=>"Selecione para validar este campo para digitação <br>de um número de telefone de 10 dígitos," .
 					             "com espaço reservado para o código de país 1, e<br>" .
-                                 "para aplicar o formato U.S.A. de núemro de telefone quando um registro<br>" .
+                                 "para aplicar o formato U.S.A. de número de telefone quando um registro<br>" .
                                  "for salvo. O seguinte formato será aplicado: (xxx) xxx-xxxx.",
 'LBL_ALL_MODULES'=>'Todos os Módulos',
 'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (relacionado a {1} ID)',

@@ -197,7 +197,7 @@ $mod_strings = array (
   'LBL_DEFAULT_LIST_ENTRIES_WERE_PROCESSED' => 'Entradas foram Processadas',
   //newsletter wizard
   'LBL_EDIT_TRACKER_NAME'=>'Nome do Tracker:',
-  'LBL_EDIT_TRACKER_URL'=>'RUL do Tracker:',
+  'LBL_EDIT_TRACKER_URL'=>'URL do Tracker:',
   'LBL_EDIT_OPT_OUT_'=>'Link Optar Sair?',
   'LBL_EDIT_OPT_OUT'=>'Link Optar Sair:',
   'LBL_UNSUBSCRIPTION_LIST_NAME'=>'Nome da Lista de Não Subscrições:',
@@ -245,7 +245,7 @@ $mod_strings = array (
   'LBL_CREATE_TARGET'=> 'Criar',
   'LBL_SELECT_TARGET'=> 'Usar uma Lista de Target existente',
   'LBL_REMOVE' => ' rem',
-  'LBL_CONFIRM' => 'Inciar',
+  'LBL_CONFIRM' => 'Iniciar',
   'LBL_START' => 'Iniciar',
   'LBL_TOTAL_ENTRIES' => 'Entradas',
   'LBL_CONFIRM_CAMPAIGN_SAVE_CONTINUE' => 'Gravar trabalho e prosseguir para  E-mail Marketing',

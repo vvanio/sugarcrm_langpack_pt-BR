@@ -3,31 +3,31 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
- * 
+ *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
  * Free Software Foundation with the addition of the following permission added
  * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
  * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
  * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
  * details.
- * 
+ *
  * You should have received a copy of the GNU Affero General Public License along with
  * this program; if not, see http://www.gnu.org/licenses or write to the Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
- * 
+ *
  * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
  * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
- * 
+ *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under
  * Section 5 of the GNU Affero General Public License version 3.
- * 
+ *
  * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
  * these Appropriate Legal Notices must retain the display of the "Powered by
  * SugarCRM" logo. If the display of the logo is not reasonably feasible for
@@ -327,7 +327,7 @@ $mod_strings = array (
     'LBL_GLOBAL_TEAM_SELECT' => 'Uma equipe padrão global não foi encontrada. Por favor, selecione uma equipe a partir da lista.',
     'LBL_GLOBAL_TEAM' => 'Reconstruir o acesso para a Equipe Global.',
     'LBL_GO' => 'Ir',
-    'LBL_HELP_BOOKMARK' => 'Aicionar página aos favoritos',
+    'LBL_HELP_BOOKMARK' => 'Adicionar página aos favoritos',
     'LBL_HELP_EMAIL' => 'E-mail',
     'LBL_HELP_LINK' => 'Link para esta página',
     'LBL_HELP_PRINT' => 'Imprimir',
@@ -651,7 +651,7 @@ $mod_strings = array (
     'LBL_REBUILD_JS_MINI_FILES_DESC_SHORT' => 'Copia os arquivos JS de código-fonte originais completos e os minifica, então substitui os arquivos JS Comprimidos existentes.',
     'LBL_REPAIR_JS_FILES_TITLE' => 'Reparar Arquivos JS',
     'LBL_REPAIR_JS_FILES_DESC_SHORT' => 'Comprime arquivos JS existentes - inclui quaisquer modificações feitas, mas não sobrescreve os arquivos JS de código-fonte originais.',
-    'LBL_REPAIR_JS_FILES_PROCESSING' => 'Processando arquivos. Isto poderá demorar alguns minutos.  Saindo desta página não irá cancelar o processo, então sinta-se a vontade para sair ou aguarde pela confirmação...',
+    'LBL_REPAIR_JS_FILES_PROCESSING' => 'Processando arquivos. Isto poderá demorar alguns minutos.  Sair desta página não irá cancelar o processo, então sinta-se a vontade para sair ou aguarde pela confirmação...',
     'LBL_REPAIR_JS_FILES_DONE_PROCESSING' => 'Processamento de arquivos concluído.',
     'LBL_REPAIR_FIELD_CASING_TITLE' => 'Reparar Campos Sem Letra Minúscula',
     'LBL_REPAIR_FIELD_CASING_DESC_SHORT' => 'Reparação caso misto de tabela(s) personalizada(s) e arquivo(s) de metadados para corrigir problemas em que o código espera nomes de campo em letras minúsculas.',
@@ -684,10 +684,10 @@ $mod_strings = array (
     'LBL_REPAIR_DATABASE_PROCESSING' => 'Processando a comparação base de dados e vardefs...',
     'LBL_REPAIR_DATABASE_DIFFERENCES' => "Foram encontradas diferenças entre a base de dados e os vardefs",
     'LBL_REPAIR_DATABASE_TEXT' =>   "O seguinte script irá sincronizar a estrutura da base de dados com a estrutura definida nos vardefs.
-		Você tem a opção de exportar este script e, em seguida, executá-lo na sua base de dados utilizando 
-		ferramentas externas de gestão de bases de dados, 
+		Você tem a opção de exportar este script e, em seguida, executá-lo na sua base de dados utilizando
+		ferramentas externas de gestão de bases de dados,
 		ou permitir ao módulo de administração executar o script.
-		<br><br><strong>NOTA: quaisquer alterações que fizer no script na caixa de texto 
+		<br><br><strong>NOTA: quaisquer alterações que fizer no script na caixa de texto
 		irão refletir no código exportado ou executado.</strong><br><br>",
     'LBL_REPAIR_DATABASE_SYNCED' => "Tabelas da Base de dados sincronizadas com os vardefs.",
     'LBL_REPAIR_DATABASE_EXECUTE' => "Executar",
@@ -809,7 +809,7 @@ $mod_strings = array (
     'LBL_UPGRADE_STUDIO_TITLE'=>'Atualizar Studio',
     'LBL_UPGRADE_SYNC_DISC_CLIENT_TITLE'    => 'Sincronizar Client',
     'LBL_UPGRADE_SYNC_DISC_CLIENT'        => 'Sincronizar arquivos e dados do cliente para o servidor',
-    'LBL_UPGRADE_TEAM_CREATE' => 'Equipes Criadas para -',
+    'LBL_UPGRADE_TEAM_CREATE' => 'Equipes Criadas para - ',
     'LBL_UPGRADE_TEAM_EXISTS'=> 'Equipe Já Existe',
     'LBL_UPGRADE_TEAM_TITLE' => 'Atualizar Equipes',
     'LBL_UPGRADE_TEAMS' => 'Criar equipes para usuários',
@@ -931,7 +931,7 @@ $mod_strings = array (
     'WARN_LICENSE_SEATS'=>  "Aviso: Licenças de usuário excedidas em ",
     'WARN_LICENSE_SEATS2' => ".  Por favor contate o seu representante de vendas ou envie um e-mail para <a href='mailto:sales@sugarcrm.com'>sales@sugarcrm.com</a>.",
     'WARN_LICENSE_SEATS_MAXED'=>  "Aviso: O número de usuários ativos já é o número máximo de licenças permitidas: ",
-    'WARN_LICENSE_SEATS_EDIT_USER'=>  "Warning: The number of active users is already the maximum number of licenses allowed",
+    'WARN_LICENSE_SEATS_EDIT_USER'=>  "Aviso: O número de usuários ativos já é o número máximo de licenças permitidas",
     'WARN_LICENSE_SEATS_USER_CREATE'=>"Aviso: O número de usuários permitidos por sua licença coincide com o número de usuários ativos no sistema. Você não será capaz de criar novos usuários ativos.",
     'WARN_REPAIR_CONFIG' => 'Aviso: O arquivo config.php precisa ser reparado. Por favor utilize o script <a href="index.php?module=Administration&action=RebuildConfig">Reconstruir Arquivo de Configuração</a> na página Reparar na área de Administração para reparar o seu arquivo de configuração.',
     'WARN_UPGRADE_APP'=> "Está disponível uma versão atualizada da aplicação. ",
@@ -943,7 +943,7 @@ $mod_strings = array (
     'WARN_NO_SMTP_SERVER_AVAILABLE_ERROR' =>"Nota: Para enviar notificações de atribuição de registo, um servidor SMTP deve ser configurado em <a href='index.php?module=EmailMan&action=config'>Definições de Email</a>.",
 	'LBL_MODULEBUILDER'=>'Construtor de Módulos',
 	'LBL_MODULEBUILDER_DESC'=>'Construir novos módulos para expandir a funcionalidade do Sistema',
-	'LBL_SUGARPORTAL'=>'Porta Sugar',
+	'LBL_SUGARPORTAL'=>'Portal Sugar',
 	'LBL_SUGARPORTAL_DESC' => 'Gerenciar o Portal Sugar',
 	'LBL_CLEAR_TEMPLATE_DATA_CACHE_DESC' => 'Remove arquivos de cache de modelos',
 	'LBL_CLEAR_TEMPLATE_DATA_CACHE_TITLE'=>'Limpar Cache de Dados de Modelo',
@@ -1146,8 +1146,7 @@ $mod_strings = array (
     'LBL_FTS_TYPE' => 'Tipo de Sistema',
     'LBL_FTS_HOST' => 'Host',
     'LBL_FTS_PORT' => 'Porta',
-    'LBL_FTS_TYPE_HELP' => 'Selecione o mecanismo de pesquisa de texto completo para usar. O sistema detecta os mecanismos suportados e os mostra nesta lista. 
-    Select the engine to use for full text searching. The system detects the engines that are supported and displays them within this list. O Sugar inclui suporte para o mecanismo ElasticSearch.',
+    'LBL_FTS_TYPE_HELP' => 'Selecione o mecanismo de pesquisa de texto completo para usar. O sistema detecta os mecanismos suportados e os mostra nesta lista. O Sugar inclui suporte para o mecanismo ElasticSearch.',
     'LBL_FTS_HOST_HELP' => 'Informe o nome do host onde reside o mecanismo de pesquisa de texto completo.',
     'LBL_FTS_PORT_HELP' => 'Informe o número da porta do host onde reside o mecanismo de pesquisa de texto completo.',
 
@@ -1179,4 +1178,3 @@ $mod_strings = array (
     'LBL_TOTAL_FILES' => 'Total de arquivos',
     'LBL_REMOVED_FILES' => 'Arquivos removidos',
 );
-
