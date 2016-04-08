@@ -36,10 +36,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 /*********************************************************************************
- * Description:  Defines the Brazilian Portuguese language pack for the base application.
+ * Description:  Defines the English language pack for the base application.
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
- * Contributor(s): Vanio Vieira (vvanio@yahoo.com.br).
+ * Contributor(s): Cálix Sistemas de Informação Ltda.
  ********************************************************************************/
 
 $mod_strings = array (
@@ -51,7 +51,7 @@ $mod_strings = array (
 	'LBL_QS_DISABLED'                   => '(A Pesquisa Rápida não está disponível para este módulo. Por favor, use o botão selecionar.)',
 	'LBL_SIGNATURE_PREPEND'				=> 'Assinatura abaixo da Resposta',
     'LBL_EMAIL_DEFAULT_DESCRIPTION' 	=> 'Aqui está a Cotação que você requisitou (Você pode modificar este texto)',
-    'LBL_EMAIL_QUOTE_FOR' => 'Citação para: ',
+    'LBL_EMAIL_QUOTE_FOR' => 'Cotação para: ',
     'LBL_QUOTE_LAYOUT_DOES_NOT_EXIST_ERROR' => 'arquivo de layout da Cotação não existe: $layout',
     'LBL_QUOTE_LAYOUT_REGISTERED_ERROR' => 'layout da Cotação não está registrado em modules/Quotes/Layouts.php',
 
@@ -133,7 +133,7 @@ $mod_strings = array (
 	'LBL_NEW_FORM_TITLE'		=> 'Arquivar E-mail',
 	'LBL_NONE'                  => 'Nenhum',
 	'LBL_NOT_SENT'				=> 'Erro no Envio',
-	'LBL_NOTE_SEMICOLON'		=> 'Nota: Utilize vírgulas ou ponto e vírgula como separadores para vários endereços de E-mail.',
+	'LBL_NOTE_SEMICOLON'		=> 'Nota: Utilize vírgula ou ponto e vírgula como separadores para vários endereços de E-mail.',
 	'LBL_NOTES_SUBPANEL_TITLE'	=> 'Anexos',
 	'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Oportunidades',
 	'LBL_PROJECT_SUBPANEL_TITLE'=> 'Projetos',
@@ -145,7 +145,7 @@ $mod_strings = array (
 	'LBL_SEARCH_FORM_DRAFTS_TITLE'=> 'Pesquisar Rascunhos',
 	'LBL_SEARCH_FORM_SENT_TITLE'=> 'Pesquisar E-mails Enviados',
 	'LBL_SEARCH_FORM_TITLE'		=> 'Pesquisar E-mails',
-	'LBL_SEND_ANYWAYS'			=> 'Este E-mails não tem assunto. Enviar/Salvar mesmo assim?',
+	'LBL_SEND_ANYWAYS'			=> 'Este E-mail não tem assunto. Enviar/Salvar mesmo assim?',
 	'LBL_SEND_BUTTON_KEY'		=> 'S',
 	'LBL_SEND_BUTTON_LABEL'		=> 'Enviar',
 	'LBL_SEND_BUTTON_TITLE'		=> 'Enviar',
@@ -284,7 +284,7 @@ $mod_strings = array (
 	'LBL_LIST_TITLE_MY_INBOX'	=> 'Minha Caixa de Entrada',
 	'LBL_LIST_TITLE_MY_SENT'	=> 'Meus E-mails Enviados',
 	'LBL_LIST_TITLE_MY_ARCHIVES'=> 'Meus E-mails Arquivados',
-    'LBL_ACTIVITIES_REPORTS' 	=> 'Relatório de Atuvudades',
+    'LBL_ACTIVITIES_REPORTS' 	=> 'Relatório de Atividades',
 
 	'LNK_CHECK_MY_INBOX'		=> 'Verificar Meu E-mail',
 	'LNK_DATE_SENT'				=> 'Data de Envio',
@@ -293,7 +293,7 @@ $mod_strings = array (
 	'LNK_MY_INBOX'				=> 'Meu E-mail',
 	'LNK_VIEW_MY_INBOX'			=> 'Visualizar Meu E-mail',
 	'LNK_QUICK_REPLY'			=> 'Responder',
-	'LNK_MY_ARCHIVED_LIST'		=> 'Meus Arquivados',
+	'LNK_MY_ARCHIVED_LIST'		=> 'Meus Arquivos',
     'LBL_EMAILS_NO_PRIMARY_TEAM_SPECIFIED' =>'Nenhuma Equipe Primária especificada',
 
 	// advanced search
@@ -301,19 +301,19 @@ $mod_strings = array (
 	'LBL_MEMBER_OF'				=> 'Membro de',
 	'LBL_QUICK_CREATE'			=> 'Criar Rapidamente',
 	'LBL_STATUS'				=> 'Estado do E-mail:',
-	'LBL_EMAIL_FLAGGED'			=> 'Marcdao:',
+	'LBL_EMAIL_FLAGGED'			=> 'Marcado:',
 	'LBL_EMAIL_REPLY_TO_STATUS'	=> 'Responder para Estado:',
 	'LBL_TYPE'					=> 'Tipo:',
 	//#20680 EmialTemplate Ext.Message.show;
 	'LBL_EMAILTEMPLATE_MESSAGE_SHOW_TITLE' => 'Por favor, verifique!',
-	'LBL_EMAILTEMPLATE_MESSAGE_SHOW_MSG' => 'Selecionando este modelo irá sobrescrever qualquer dado já inserido no corpo do E-mail. Você que continuar?',
-    'LBL_EMAILTEMPLATE_MESSAGE_CLEAR_MSG' => 'Selecionando "--Nenhum--" irá limpar qualquer dado já inserido no corpo do E-mail. Você que continuar?',
+	'LBL_EMAILTEMPLATE_MESSAGE_SHOW_MSG' => 'Selecionando este modelo irá sobrescrever qualquer dado já inserido no corpo do E-mail. Você quer continuar?',
+    'LBL_EMAILTEMPLATE_MESSAGE_CLEAR_MSG' => 'Selecionando "--Nenhum--" irá limpar qualquer dado já inserido no corpo do E-mail. Você quer continuar?',
 	'LBL_EMAILTEMPLATE_MESSAGE_WARNING_TITLE' => 'Aviso',
-	'LBL_EMAILTEMPLATE_MESSAGE_MULTIPLE_RECIPIENTS' => 'Usando um modelo de E-mail contendo variáveis de contato, como o nome do contato, para enviar E-mails para múltiplos destinatários pode ter resultados inesperados. è recomendado que você use uma campanha de E-mail para esta finalidade.',
+	'LBL_EMAILTEMPLATE_MESSAGE_MULTIPLE_RECIPIENTS' => 'Usando um modelo de E-mail contendo variáveis de contato, como o nome do contato, para enviar E-mails para múltiplos destinatários pode ter resultados inesperados. É recomendado que você use uma campanha de E-mail para esta finalidade.',
 	'LBL_CHECK_ATTACHMENTS'=>'Por favor, verifique os anexos!',
 	'LBL_HAS_ATTACHMENTS' => 'Este E-mail já tem anexo(s). Você gostaria de mantê-lo(s)?',
 	'ERR_MISSING_REQUIRED_FIELDS' => 'Faltando campo obrigatório',
-    'ERR_INVALID_REQUIRED_FIELDS' => 'Campo obrigatório invpalido',
+    'ERR_INVALID_REQUIRED_FIELDS' => 'Campo obrigatório inválido',
 	'LBL_FILTER_BY_RELATED_BEAN' => 'Somente mostar destinatários relacionados a',
     'LBL_RECIPIENTS_HAVE_BEEN_ADDED' => 'Destinatários adicionados.',
     'LBL_ADD_INBOUND_ACCOUNT' => 'Adicionar',
