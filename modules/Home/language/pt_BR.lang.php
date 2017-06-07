@@ -117,7 +117,7 @@ $mod_strings = array (
 
   // Dashlet Categories
   'dashlet_categories_dom' => array(
-      'Module Views' => 'Visualições de Módulos',
+      'Module Views' => 'Visualizações de Módulos',
       'Portal' => 'Portal',
       'Charts' => 'Gráficos',
       'Tools' => 'Ferramentas',
@@ -184,7 +184,7 @@ $mod_strings = array (
   'LBL_TRADEMARKS' => 'marcas',
   'LBL_OF' => 'dos',
   'LBL_FOUNDERS' => 'Fundadores',
-  'LBL_JOIN_SUGAR_COMMUNITY' => 'Junte-se a Comunidade Sugar',
+  'LBL_JOIN_SUGAR_COMMUNITY' => 'Junte-se à Comunidade Sugar',
   'LBL_DETAILS_SUGARFORGE' => 'Colabore e desenvolva extensões para o Sugar',
   'LBL_DETAILS_SUGAREXCHANGE' => 'Compre ou venda extensões certificadas do Sugar',
   'LBL_TRAINING' => 'Treinamento',

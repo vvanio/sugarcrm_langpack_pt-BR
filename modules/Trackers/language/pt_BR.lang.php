@@ -43,7 +43,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-		  //Labels for methods in the RastreadorReporter.php file that are shown in RastreadorDashlet
+		  //Labels for methods in the TrackerReporter.php file that are shown in TrackerDashlet
 		  'ShowActiveUsers'      => 'Mostrar usuários Ativos',
 		  'ShowLastModifiedRecords' => 'Últimos 10 Registros Modificados',
 		  'ShowTopUser' => 'Top User',
@@ -79,7 +79,7 @@ $mod_strings = array (
 		  'LBL_TRACKER_SETTINGS' => 'Configurações do Rastreador',
 		  'LBL_TRACKER_QUERIES_DESC' => 'Rastreador de Consultas',
 		  'LBL_TRACKER_QUERIES_HELP' => 'Rastrear instruções SQL quando "Registar as consultas lentas" estiver ativo e o tempo de execução da consulta exceder o valor "Limite de  tempo para consultas lentas".',
-		  'LBL_TRACKER_PERF_DESC' => 'Rastreador de Performance',
+		  'LBL_TRACKER_PERF_DESC' => 'Rastreador de Desempenho',
 		  'LBL_TRACKER_PERF_HELP' => 'Rastrear "idas e vindas" do banco de dados, arquivos acessados e uso de memória.',
 		  'LBL_TRACKER_SESSIONS_DESC' => 'Rastreador de Sessões',
 		  'LBL_TRACKER_SESSIONS_HELP' => 'Rastrear usuários ativos e informações de sessão dos usuários.',

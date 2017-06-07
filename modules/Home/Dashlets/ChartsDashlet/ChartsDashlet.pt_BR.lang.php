@@ -41,32 +41,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * All Rights Reserved.
  * Contributor(s): Vanio Vieira (vvanio@yahoo.com.br).
  ********************************************************************************/
- 
-$app_list_strings = array (
-strtolower($object_name).'_category_dom' =>
-    array (
-    '' => '',
-    'Marketing' => 'Marketing',
-    'Knowledege Base' => 'Base de Conhecimento',
-    'Sales' => 'Vendas',
-  ),
 
-    strtolower($object_name).'_subcategory_dom' =>
-    array (
-    '' => '',
-    'Marketing Collateral' => 'Material de Marketing',
-    'Product Brochures' => 'Brochuras de Produtos',
-    'FAQ' => 'FAQ',
-  ),
-
-    strtolower($object_name).'_status_dom' =>
-    array (
-    'Active' => 'Ativo',
-    'Draft' => 'Rascunho',
-    'FAQ' => 'FAQ',
-    'Expired' => 'Expirou',
-    'Under Review' => 'Em Revisão',
-    'Pending' => 'Pendente',
-  ),
-  );
+$dashletStrings['ChartsDashlet'] = array('LBL_TITLE'            => 'Gráficos',
+                                         'LBL_DESCRIPTION'      => 'Um dashlet para exibir gráficos',
+                                         'LBL_CONFIGURE_TITLE'  => 'Título', );
 ?>

@@ -80,5 +80,4 @@ $mod_strings = array (
   'LBL_STEP1_DIRECTIONS' => 'Encontrar possíveis registros duplicados. Se registros duplicados forem encontrados, você pode selecionar que registros quer mesclar com o registro atual.',
 );
 
-
 ?>

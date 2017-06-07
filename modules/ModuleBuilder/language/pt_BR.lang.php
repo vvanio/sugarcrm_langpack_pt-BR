@@ -230,7 +230,7 @@ $mod_strings = array(
 		'addDropDownBtn' => 'Adicionar um novo Dropdown global',
 	),
 	'fieldsHelp'=>array(
-		'default'=>'The <b>Fields</b> in the module are listed here by Field Name.<br><br>The module template includes a pre-determined set of fields.<br><br>To create a new field, click <b>Add Field</b>.<br><br>To edit a field, click the <b>Field Name</b>.<br/><br/>After the module is deployed, the new fields created in Module Builder, along with the template fields, are regarded as standard fields in Studio.',
+		'default'=>'Os <b>Campos</b> no módulo são listado aqui pelo Nome do Campo.<br><br>O template de módulo inclui um conjunto pré-determinado de campos.<br><br>Para criar um novo campo, clique <b>Adicionar Campo</b>.<br><br>Para editar um campo, clique no <b>Nome do Campo</b>.<br/><br/>Depois que o módulo for implantado, os novos campos criado no Module Builder, junto com os campos do template, serão considerados como campos padrão no Studio.',
 	),
 	'relationshipsHelp'=>array(
 		'default'=>'Os <b>Relacionamentos</b> que existem entre o módulo e outros módulos implementados aparecem aqui.<br><br>O <b>Nome</b> do Relacionamento é o nome gerado pelo sistema para o relacionamento.<br><br>O <b>Módulo Primário</b> é o módulo que possui os relacionamentos. As propriedades do relacionamento são armazenadas nas tabelas de banco de dados pertencentes ao módulo primário.<br><br>O <b>Tipo</b> é o tipo de relacionamento existente entre a módulo Prinicipal e o <b>Módulo Relacionado</b>.<br><br>Clique no título da coluna para classificar pela coluna<br><br>Clique em uma linha na tabela de relacionamentos para exibir as propriedades associadas ao relacionamento.<br><br>Clique em <b>Adicionar Relacionamento</b> para criar um novo relacionamento.',

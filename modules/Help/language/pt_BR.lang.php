@@ -59,3 +59,4 @@ $mod_strings = array (
   'LNK_NEW_TASK' => 'Criar Tarefa',
   'ERR_DELETE_RECORD' => 'Um número de registro deve ser especificado para excluir esta conta.',
 );
+?>

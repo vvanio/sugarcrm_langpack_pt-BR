@@ -46,7 +46,7 @@ global $timedate;
  
 $mod_strings = array (
     'LBL_GOOD_FILE' => 'Importação de Arquivo de Leitura com Sucesso',
-    'LBL_RECORDS_SKIPPED_DUE_TO_ERROR' => 'linhas de registros foram ignoradas devido a erro.',
+    'LBL_RECORDS_SKIPPED_DUE_TO_ERROR' => 'linhas de registros foram ignoradas devido a erros.',
     'LBL_UPDATE_SUCCESSFULLY' => 'registros criados ou atualizados com sucesso.',
     'LBL_SUCCESSFULLY_IMPORTED' => 'registros foram criados',
     'LBL_STEP_4_TITLE' => 'Passo {0}: Arquivo de Importação',
@@ -356,6 +356,7 @@ $mod_strings = array (
     'LBL_SELECT_MAPPING_INSTRUCTION' => 'A tabela abaixo contém todos os campos no módulo que podem ser mapeados para os dados no arquivo de importação. Se o arquivo contém uma linha de cabeçalho, as colunas no arquivo foram mapeadas para campos correspondentes. Verifique os mapeamentos para se certificar de que eles são o que você esperava, e faça alterações, se necessário. Para ajudar a verificar os mapeamentos, a Linha 1 mostra os dados no arquivo. Certifique-se de mapear todos os campos obrigatórios (marcados por um asterisco).',
     'LBL_SELECT_DUPLICATE_INSTRUCTION' => 'Para evitar a criação de registos duplicados, selecione qual dos campos mapeados você gostaria de usar para executar uma verificação de dados duplicados, enquanto os dados estão sendo importado. Valores de registros existentes nos campos selecionados serão confrontados com os dados no arquivo de importação. Se um dado correspondente for encontrado, as linhas no arquivo de importação contendo os dados serão exibidos juntamente com os resultados de importação (próxima página). Então você poderá selecionar quais dessas linhas para continuar importando.',
     'LBL_EXT_SOURCE_SIGN_IN' => 'Acessar',
+    'LBL_EXT_SOURCE_SIGN_OUT' => 'Sair',
     'LBL_DUP_HELP' => 'Aqui estão as linhas do arquivo de importação que não foram importados porque contêm dados que coincidem com registros existentes baseado na verificação de duplicados. Os dados correspondentes estão realçados. Para voltar a importar estas linhas, faça o download da lista, realize as alterações e clique em <b>Importar Novamente</b>.',
     'LBL_DESELECT' => 'Desmarcar',
     'LBL_SUMMARY' => 'Sumário',

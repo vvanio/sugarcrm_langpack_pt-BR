@@ -94,7 +94,7 @@ $mod_strings = array (
     // quick create label
     'LBL_NEW_FORM_TITLE' => 'Novo Projeto',
 
-	'CONTACT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this contact from this project?',
+	'CONTACT_REMOVE_PROJECT_CONFIRM' => 'Você está certo que quer remover este contato deste projeto?',
 
 	'LNK_NEW_PROJECT'	=> 'Criar Projeto',
 	'LNK_PROJECT_LIST'	=> 'Visualizar Lista de Projetos',

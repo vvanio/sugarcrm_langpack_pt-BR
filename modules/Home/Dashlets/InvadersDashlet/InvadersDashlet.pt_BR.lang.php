@@ -41,32 +41,12 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * All Rights Reserved.
  * Contributor(s): Vanio Vieira (vvanio@yahoo.com.br).
  ********************************************************************************/
- 
-$app_list_strings = array (
-strtolower($object_name).'_category_dom' =>
-    array (
-    '' => '',
-    'Marketing' => 'Marketing',
-    'Knowledege Base' => 'Base de Conhecimento',
-    'Sales' => 'Vendas',
-  ),
 
-    strtolower($object_name).'_subcategory_dom' =>
-    array (
-    '' => '',
-    'Marketing Collateral' => 'Material de Marketing',
-    'Product Brochures' => 'Brochuras de Produtos',
-    'FAQ' => 'FAQ',
-  ),
-
-    strtolower($object_name).'_status_dom' =>
-    array (
-    'Active' => 'Ativo',
-    'Draft' => 'Rascunho',
-    'FAQ' => 'FAQ',
-    'Expired' => 'Expirou',
-    'Under Review' => 'Em Revisão',
-    'Pending' => 'Pendente',
-  ),
-  );
+$dashletStrings['InvadersDashlet'] = array(
+    'LBL_TITLE'         => 'Invaders!',
+    'LBL_DESCRIPTION'   => 'Uma forma de passar o tempo',
+    'LBL_DBLCLICK_HELP' => 'Use A e D para mover, S para atirar.',
+    'LBL_START'         => 'Clique para Começar',
+    'LBL_GAME_OVER'     => 'Fim de Jogo<br>(Clique para jogar novamente)',
+);
 ?>

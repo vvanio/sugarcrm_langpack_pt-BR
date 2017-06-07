@@ -75,7 +75,7 @@ $mod_strings = array (
 'LBL_WED'		=> 'Quarta',
 'LBL_THU'		=> 'Quinta',
 'LBL_FRI'		=> 'Sexta',
-'LBL_SAT'		=> 'Saado',
+'LBL_SAT'		=> 'Sábado',
 'LBL_ALL'		=> 'Todos os Dias',
 'LBL_EVERY_DAY'	=> 'Todos os Dias ',
 'LBL_AT_THE'	=> 'às ',
@@ -91,7 +91,7 @@ $mod_strings = array (
 'LBL_HOUR_SING'	=> ' hora',
 'LBL_MONTH'		=> ' mês',
 'LBL_OFTEN'		=> ' Tão frequentemente quanto possível.',
-'LBL_MIN_MARK'	=> ' na marca de minutork',
+'LBL_MIN_MARK'	=> ' na marca de minuto',
 
 
 // crontabs

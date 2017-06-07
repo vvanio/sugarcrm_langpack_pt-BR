@@ -1178,3 +1178,4 @@ $mod_strings = array (
     'LBL_TOTAL_FILES' => 'Total de arquivos',
     'LBL_REMOVED_FILES' => 'Arquivos removidos',
 );
+

@@ -82,3 +82,4 @@ $mod_strings = array (
   'LBL_RELATED_INFO_SELECTION' => 'Use as seleções a seguir para identificar as informações de relacionamento que você gostaria de mostrar no documento mesclado. Pule este passo se seu modelo de documento não contém informações de relacionamentos.',
 
 );
+?>
