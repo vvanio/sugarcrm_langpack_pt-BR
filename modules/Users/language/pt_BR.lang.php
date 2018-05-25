@@ -99,7 +99,7 @@ $mod_strings = array (
 	'LBL_ADMIN_USER'					=> 'Usuário Administrador do Sistema',
 
 
-	'LBL_ADMIN_DESC'					=> 'O Usuário não pode acessar a página de Administração\.',
+	'LBL_ADMIN_DESC'					=> 'O Usuário não pode acessar a página de Administração.',
 	'LBL_REGULAR_DESC'					=> 'O Usuário pode acessar módulos e registros baseado nas funções.',
 
 

@@ -3,31 +3,31 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
- * 
+ *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
  * Free Software Foundation with the addition of the following permission added
  * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
  * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
  * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
  * details.
- * 
+ *
  * You should have received a copy of the GNU Affero General Public License along with
  * this program; if not, see http://www.gnu.org/licenses or write to the Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
- * 
+ *
  * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
  * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
- * 
+ *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under
  * Section 5 of the GNU Affero General Public License version 3.
- * 
+ *
  * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
  * these Appropriate Legal Notices must retain the display of the "Powered by
  * SugarCRM" logo. If the display of the logo is not reasonably feasible for
@@ -53,11 +53,11 @@ $mod_strings = array (
 	'LBL_CONFIGURE_SETTINGS'					=> 'Configurar Definições de E-mail',
 	'LBL_CUSTOM_LOCATION'						=> 'Definida pelo Usuário',
 	'LBL_DEFAULT_LOCATION'						=> 'Padrão',
-	
+
 	'LBL_DISCLOSURE_TITLE'						=> 'Anexar mensagem de divulgação para cada E-mail',
 	'LBL_DISCLOSURE_TEXT_TITLE'					=> 'Conteúdos de Divulgação',
 	'LBL_DISCLOSURE_TEXT_SAMPLE'				=> 'NOTA: Esta mensagem de E-mail destina-se somente ao(s) destinatário(s) pretendido(s) e pode conter informação confidencial e/ou privilegiada. Qualquer revisão, uso, divulgação ou distribuição não autorizada é expressamente proibida. Se você não é o destinatário pretendido, por favor destrua todas as cópias da mensagem original e notifique o remetente para que o nosso registo de endereços seja corrigido. Muito obrigado!',
-	
+
 	'LBL_EMAIL_DEFAULT_CHARSET'					=> 'Compor mensagem de E-mail nesta definição de caracteres',
 	'LBL_EMAIL_DEFAULT_EDITOR'					=> 'Compor mensagem de E-mail usando este cliente',
 	'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS'		=> 'Excluir anotações e anexos relacionados com E-mails excluídos',

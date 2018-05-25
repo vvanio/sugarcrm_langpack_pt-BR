@@ -100,6 +100,8 @@ $mod_strings = array (
   
   'LBL_ERR_FAILED_QUICKCHECK' => 'Atualmente, você não está conectado a sua conta {0}. Clique OK para acessar a sua conta e reativar a conexão.',
 
+  'LBL_CLICK_TO_EDIT' => 'Clique para Editar',
+
   // Various strings used throughout the external account modules
   'LBL_MEET_NOW_BUTTON' => 'Conehça agora',
   'LBL_VIEW_LOTUS_LIVE_MEETINGS' => 'Visualizar Próximas Reuniões IBM SmartCloud&trade;',

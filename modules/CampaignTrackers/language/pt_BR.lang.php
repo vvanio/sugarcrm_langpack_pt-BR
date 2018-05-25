@@ -56,7 +56,7 @@ $mod_strings = array (
 	'LBL_CAMPAIGN'=>'Campanha',
 	'LBL_OPTOUT'=>'Optou Sair',
 	
-	'LBL_MODULE_NAME'=>'Trackers de Camapnha',
+	'LBL_MODULE_NAME'=>'Trackers de Campanha',
 	'LBL_EDIT_CAMPAIGN_NAME'=>'Nome da Campanha:',
 	'LBL_EDIT_TRACKER_NAME'=>'Nome do Tracker:',
 	'LBL_EDIT_TRACKER_URL'=>'URL do Tracker:',

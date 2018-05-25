@@ -52,7 +52,7 @@ $mod_strings = array (
   'LBL_NEWSLETTER_TITLE'=>'Campanhas: Newsletters',
   'LBL_SEARCH_FORM_TITLE' => 'Pesquisa de Campanhas',
   'LBL_LIST_FORM_TITLE' => 'Lista de Campanhas',
-  'LBL_NEWSLETTER_LIST_FORM_TITLELista de Newsletter',
+  'LBL_NEWSLETTER_LIST_FORM_TITLE'=>'Lista de Newsletter',
   'LBL_CAMPAIGN_NAME' => 'Nome:',
   'LBL_CAMPAIGN' => 'Campanha:',
   'LBL_NAME' => 'Nome: ',
@@ -129,7 +129,7 @@ $mod_strings = array (
   'LBL_TODETAIL_BUTTON_LABEL'=>'Visualizar Detalhes',
 
   'LBL_DEFAULT'=>'Todas as Listas de Targets',
-  'LBL_MESSAGE_QUEUE_TITLE'=>'Enfileira Mensagens',
+  'LBL_MESSAGE_QUEUE_TITLE'=>'Fila de Mensagens',
   'LBL_LOG_ENTRIES_TITLE'=>'Respostas',
 
   'LBL_LOG_ENTRIES_TARGETED_TITLE'=>'Mensagens Enviadas/Tentativas',
@@ -381,7 +381,7 @@ $mod_strings = array (
     'LBL_SELECT_REQUIRED_LEAD_FIELDS' => 'Por favor selecione os campos obrigatórios:',
     //Campaign charts
     'LBL_CAMPAIGN_RETURN_ON_INVESTMENT' =>'ROI da Campanha (Return On Investment)',
-    'LBL_CAMPAIGN_RESPONSE_BY_RECIPIENT_ACTIVITY'=>'Resultado da Camapnha pela Atividade do Destinatário',
+    'LBL_CAMPAIGN_RESPONSE_BY_RECIPIENT_ACTIVITY'=>'Resultado da Campanha pela Atividade do Destinatário',
     'LBL_LOG_ENTRIES_BLOCKEDD_TITLE'=>'Suprimidos por endereço de E-mail ou domínio',
 
     'LBL_AMOUNT_IN' => 'Valor total em ',

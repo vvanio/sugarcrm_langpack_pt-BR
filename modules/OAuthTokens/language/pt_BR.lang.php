@@ -55,4 +55,9 @@ $mod_strings = array (
     'LBL_LIST_DELETE' => 'Excluir Token',
     'LBL_CONSUMER' => 'Nome do Consumidor',
     'LBL_OAUTH_DISABLED' => 'Suporte OAuth não habilitado. A extensão PHP oauth pode estar faltando. Por favor, contate seu Admnistrador do Sistema.',
+    'LBL_TOKEN_TS' => 'Token TS',
+    'LBL_CALLBACK_URL' => 'Callback URL',
+    'LBL_SECRET' => 'Secret',
+    'LBL_TSTATE' => 'TState',
+    'LBL_VERIFY' => 'Verify',
 );
