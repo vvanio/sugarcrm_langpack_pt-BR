@@ -9,6 +9,9 @@ When you download this package, github will create a .zip file and it will put a
 In order to install this package on SugarCRM, you should extract files and create a new .zip file with the structure defined below.
 
 /include
+
 /install
+
 /modules
+
 manifest.php
